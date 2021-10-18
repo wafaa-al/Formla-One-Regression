@@ -14,7 +14,7 @@ Data will be scraped from [Formula 1 website](https://www.formula1.com/en/result
 
 #### Tools Description
 The main technologies and liabraries that will be used are:
-Technologies:
+</br> Technologies:
 1. Python
 2. Jupyter Notebook
 3. HTML/CS
