@@ -5,7 +5,7 @@
 ### Introduction
 Formula One is one of the most popular forms of racing in the world, attracting large crowds. It is also the hight class of single-seat auto racing that is sanctioned by the FIA. The "Formula", designated in the name, refers to a set of rules, to which all participants' cars must conform. the F1 season consists of a series of races, known as Grands Prix, held worldwide on purpose-built F1 circuits and public roads.
 
-#### Potential Prediction
+### Potential Prediction
 There will be an upcoming race in Jeddah, Saudi Arabia and with the help of our linear regression model we will be able to predict the duration of completetion the race for each player participated in the race, and the number of laps.
 
 ### Data Description
