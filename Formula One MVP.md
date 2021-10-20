@@ -27,7 +27,7 @@ Several models have been tested to generate the best Rˆ2 value possible to star
 <img src="https://github.com/AhadAl977/Formula-one-Regression/blob/main/Images/ResandPredicted.png" width="350"/> 
 
 The first model that was tested and played with was OLS with the Rˆ2 value **=0.727** (as shown previously in the table above). Using this initial model two simple graphs were made to paint the picture clearly. The first graph was done to plot the values of the __true target__ & the __predicted target__ which shows some linearity with much added noise.
-In the second graph though, a plot was done to depict the relationship between the __error__ & the __predicted target__. A lot of residiuals are shown across the __predicted target__ values. Given that the OlS is the second-worse in terms of Rˆ2 value there's no doubt that there's plenty of errors and the __predicted target__ values didn't fit well once compared with the __true target__ values.
+In the second graph though, a plot was done to depict the relationship between the __error__ & the __predicted target__. A lot of residiuals are shown across the __predicted target__ values. Given that the OLS is the second-worse in terms of Rˆ2 value there's no doubt that there's plenty of errors and the __predicted target__ values didn't fit well once compared with the __true target__ values.
 
 
 ##### Futrue Work
