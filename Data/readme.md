@@ -1,1 +1,1 @@
-## here is all the dataset used in this linear regression project
+## Here is all the datasets used in this linear regression project
