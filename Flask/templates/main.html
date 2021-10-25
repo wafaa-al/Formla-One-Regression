@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Formula 1 Predictor </title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css')}}">
+
+  
+</head>
+
+<body style="background-image: url('4282.jpeg');">
+ <div class="login">
+	<h1>Formula 1 Predictor</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="Qualifying Positin" placeholder="Qualifying Positin" required="required" />
+        <input type="text" name="Starting grid Positin" placeholder="Starting grid Positin" required="required" />
+		<input type="text" name="Fastest Lap Positin" placeholder="Fastest Lap Positin" required="required" />
+    <input type="text" name="Predict3" placeholder="Practice 3 Time" required="required" />
+    <input type="text" name="fastlapavg" placeholder="Fastest Lap Avg Speed" required="required" />
+    <input type="text" name="racerl" placeholder="Race Result Laps" required="required" />
+    <input type="text" name="Psst" placeholder="Pit Stop Summary Total" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large" href="{{ url_for('predict') }}" value="Predict">Predict Formula 1 Points</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+</body>
+</html>
